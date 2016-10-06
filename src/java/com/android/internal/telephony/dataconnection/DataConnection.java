@@ -577,7 +577,6 @@ public class DataConnection extends StateMachine {
 
         mPhone.mCi.setupDataCall(
                 getDataTechnology(cp.mRilRat),
-                Integer.toString(cp.mRilRat + 2),
                 Integer.toString(cp.mProfileId),
                 mApnSetting.apn, mApnSetting.user, mApnSetting.password,
                 Integer.toString(authType),
